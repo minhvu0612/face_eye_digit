@@ -1,0 +1,102 @@
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -ms-appearance: none;
+   appearance: none;
+   outline: 0;
+   box-shadow: none;
+   border: 0 !important;
+   background: DeepSkyBlue;
+   background-image: none;
+ }
+.select {
+   position: relative;
+   display: flex;
+   width: 20em;
+   height: 3em;
+   line-height: 3;
+   background: #fff;
+   overflow: hidden;
+   border-radius: .25em;
+   font-size: 20px;
+ }
+ select {
+   flex: 1;
+   padding: 0.5em;
+   color: #fff;
+   cursor: pointer;
+ }
+ /* thiết kế dấu mũi tên */
+ .select::after {
+   content: 'SET';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: DodgerBlue;
+   cursor: pointer;
+   pointer-events: none;
+   -webkit-transition: .25s all ease;
+   -o-transition: .25s all ease;
+   transition: .25s all ease;
+   color: white;
+ }
+ /* Hiệu ứng hover */
+ .select:hover::after {
+   color: Gainsboro;
+ }
+
+ .set{
+         padding: 20px;
+         margin: 0;
+            min-width: 500px;
+      }
+      .button {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+        }
+
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .div1{
+         width: 80%;
+         height: 70vh;
+        }
+
+        .div2{
+         width: 80%;
+         height: 20vh;
+        }
+
+        .div3{
+            width: 50%;
+            height: 40vh;
+        }
+
+        label{
+            color: rgb(128, 0, 0);
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+
+        span{
+            color: blue;
+            font-size: 25px;
+        }
